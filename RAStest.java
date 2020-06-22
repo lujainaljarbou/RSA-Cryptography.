@@ -2,8 +2,7 @@ import java.util.Random;
 
 public class RAStest {
 	public static void main(String[] ars) {
-                System.out.print("مين عمتكم ؟");
-		 System.out.print("أكيد لمى");
+  
 		RSA x = new RSA();
 		//-----------------------------------(random_prime)------------------------------------------------------------------
 		System.out.println("Random_prime |" + x.random_prime() + "|");
